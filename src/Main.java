@@ -22,7 +22,7 @@ public class Main {
 		*/
 		
 		
-		double b, B, h , area;
+		/*double b, B, h , area;
 		
 		b = 6.0;
 		B = 8.0;
@@ -30,6 +30,21 @@ public class Main {
 		
 		area = (b + B) / 2.0 * h;
 		System.out.println(area);
+		*/
+		
+		// para Double use sempre .0
+		// para float use sempre f
+		
+		
+		int a, b;
+		double resultado;
+		
+		a = 5;
+		b = 2;
+		
+		resultado = (double) a / b;
+		
+		System.out.println(resultado);
 		
 	}
 }
